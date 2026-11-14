@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Wanderly trip planner API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/seed.js",
+    "build:countries": "node scripts/build-countries.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "mongoose": "^9.12.1"
+  },
+  "devDependencies": {
+    "capitals-coordinates": "^1.2.0",
+    "country-json": "^2.3.0",
+    "nodemon": "^3.1.14",
+    "world-countries": "^5.1.0"
+  },
+  "type": "module"
+}
